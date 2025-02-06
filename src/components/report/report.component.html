@@ -1,0 +1,38 @@
+<div class="report-container">
+  <button (click)="downloadProviders()">Download Providers</button>
+
+  <!-- <button (click)="generateReport()">Generate Report</button> -->
+
+  <!-- @if(reportGenerated) {
+  <div class="report">
+    <h1>{{ reportData.title }}</h1>
+    <p>Date: {{ reportData.date }}</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of reportData.items; track item.name) {
+        <tr>
+          <td>{{ item.id }}</td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.quantity }}</td>
+          <td>{{ item.price }}</td>
+          <td>{{ item.quantity * item.price }}</td>
+        </tr>
+        }
+      </tbody>
+    </table>
+
+    <button (click)="downloadPDF()">Download PDF</button>
+    <button (click)="downloadExcel()">Download Excel</button>
+  </div>
+  } -->
+</div>
